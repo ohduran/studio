@@ -1,4 +1,6 @@
 import React from "react"
 import "../global.css"
 
-export default () => <div>Hello world!</div>
+import StackedBarsIcon from "../components/StackedBarsIcon"
+
+export default () => <StackedBarsIcon />

@@ -1,7 +1,75 @@
 /* To learn more about how to use Tailwind in your CSS, visit https://tailwindcss.com/ */
+@import url("https://fonts.googleapis.com/css?family=Zilla+Slab|Zilla+Slab+Highlight&display=swap");
 
 @tailwind base;
 
 @tailwind components;
+
+body {
+  @apply bg-gray-900;
+}
+
+.font-family-zilla {
+  font-family: "Zilla Slab", serif;
+}
+
+.font-family-zilla-highlight {
+  font-family: "Zilla Slab Highlight", cursive;
+}
+
+.row-start-8 {
+  grid-row-start: 8;
+}
+
+.col-start-14 {
+  grid-column-start: 14;
+}
+.col-start-15 {
+  grid-column-start: 15;
+}
+.col-start-20 {
+  grid-column-start: 20;
+}
+.col-start-22 {
+  grid-column-start: 22;
+}
+
+.col-end-16 {
+  grid-column-end: 16;
+}
+
+.col-end-17 {
+  grid-column-end: 17;
+}
+
+.col-end-18 {
+  grid-column-end: 18;
+}
+
+.col-end-19 {
+  grid-column-end: 19;
+}
+
+.col-end-20 {
+  grid-column-end: 20;
+}
+.col-end-21 {
+  grid-column-end: 21;
+}
+
+.col-end-22 {
+  grid-column-end: 22;
+}
+.col-end-23 {
+  grid-column-end: 23;
+}
+
+.col-end-25 {
+  grid-column-end: 25;
+}
+
+.col-end-26 {
+  grid-column-end: 26;
+}
 
 @tailwind utilities;
