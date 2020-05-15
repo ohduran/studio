@@ -31,10 +31,9 @@ const BookContext = createContext()
 
 const BookContextProvider = ({ children }) => {
   const [books, dispatch] = useReducer(bookReducer, [], () => {
-    if (typeof window !== "undefined") {
-      const localData = window.localStorage.getItem("books")
-      return localData ? JSON.parse(localData) : []
-    }
+    const windowGlobal = typeof window !== "undefined" && window
+    const localData = windowGlobal.localStorage.getItem("books")
+    return localData ? JSON.parse(localData) : []
   })
 
   useEffect(() => {
