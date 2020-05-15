@@ -15,12 +15,12 @@ const IndexPage = () => {
       <section className="mt-10 w-9/12 mx-auto text-justify font-semibold">
         <p>Hi, I'm Álvaro Durán.</p>
         <p className="mt-2">
-          I'm a Full Stack Web Developer at GESCO. I'm especially interested in
-          finding out what the Internet is for.
+          This is my studio. In it, explore what can be achieved on the Web, and
+          how is it different from any other medium out there.
         </p>
       </section>
 
-      <ListSection title="Demos" className="" titleClassName="">
+      <ListSection title="Demos" className="" titleClassName="text-nord-11">
         <ListItem
           to="/booklist"
           src={thumbNailBookList}
@@ -29,7 +29,7 @@ const IndexPage = () => {
         />
       </ListSection>
 
-      <ListSection title="AbEx" className="" titleClassName="">
+      <ListSection title="AbEx" className="" titleClassName="text-nord-13">
         <ListItem
           to="/onementI"
           src={thumbNailOnementI}

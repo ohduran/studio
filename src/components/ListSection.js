@@ -3,11 +3,11 @@ import "../global.css"
 
 const ListSection = ({ title, children, className, titleClassName }) => {
   return (
-    <section className={`mt-10 w-9/12 mx-auto ${className ? className : ""}`}>
+    <section className={`${className ? className : ""} mt-10 w-9/12 mx-auto`}>
       <h2
-        className={`text-4xl text-nord-13 font-family-zilla font-bold ${
+        className={`${
           titleClassName ? titleClassName : ""
-        }`}
+        } text-4xl font-family-zilla font-bold `}
       >
         {title}
       </h2>
