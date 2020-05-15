@@ -1,0 +1,39 @@
+.container {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  background-image: repeating-linear-gradient(
+    to right,
+    hsl(9.6, 27.8%, 27.1%),
+    hsl(9.3, 29.8%, 29.6%) 10%,
+    hsl(8.8, 25%, 26.7%) 20%,
+    hsl(10.5, 28.2%, 27.8%) 30%,
+    hsl(7.6, 24.9%, 27.5%) 40%,
+    hsl(8.5, 26.3%, 28%) 50%,
+    hsl(10.1, 25.9%, 28.5%) 60%,
+    hsl(7.2, 24.9%, 29%) 70%,
+    hsl(8.1, 27.3%, 27.5%) 80%,
+    hsl(8.4, 25.5%, 28.5%) 90%
+  );
+}
+
+#vertical-line {
+  border-left: 3px solid hsl(8.5, 26.3%, 28%);
+  border-right: 3px solid hsl(8.5, 26.3%, 28%);
+
+  background: repeating-linear-gradient(
+    to right,
+    hsl(15.4, 46.2%, 49.6%),
+    #b96244 0.25em /* black stripe */,
+    hsl(18.5, 47.2%, 50.2%),
+    #bc6944 0.75em /* blue stripe */
+  );
+  /*background-image: #b96244;*/
+  width: 5vw;
+  height: 100vh;
+  margin: auto 0;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
