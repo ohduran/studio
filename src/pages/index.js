@@ -4,7 +4,7 @@ import StackedBarsIcon from "../components/StackedBarsIcon"
 import DefaultLayout from "../layouts"
 
 import thumbNailBookList from "../static/thumbnails/demos/BookList.png"
-import thumbNailOnementI from "../static/thumbnails/abex/onementI.png"
+import thumbNailOnementI from "../static/thumbnails/abex/OnementI.png"
 import ListItem from "../components/ListItem"
 import ListSection from "../components/ListSection"
 
