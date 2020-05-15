@@ -11,7 +11,7 @@ const ListSection = ({ title, children, className, titleClassName }) => {
       >
         {title}
       </h2>
-      <nav className="mt-5 grid grid-cols-3">{children}</nav>
+      <nav className="mt-5 grid gap-3 grid-cols-3">{children}</nav>
     </section>
   )
 }
