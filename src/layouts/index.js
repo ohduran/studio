@@ -6,6 +6,7 @@ const DefaultLayout = ({ children }) => {
     <>
       <NavBar />
       {children}
+      <footer style={{ marginTop: "10vh" }}></footer>
     </>
   )
 }

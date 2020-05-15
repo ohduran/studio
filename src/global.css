@@ -1,20 +1,20 @@
 /* To learn more about how to use Tailwind in your CSS, visit https://tailwindcss.com/ */
-@import url("https://fonts.googleapis.com/css?family=Zilla+Slab|Zilla+Slab+Highlight&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Zilla+Slab&display=swap");
 
 @tailwind base;
 
 @tailwind components;
 
-body {
-  @apply bg-gray-900;
-}
-
 .font-family-zilla {
   font-family: "Zilla Slab", serif;
 }
 
-.font-family-zilla-highlight {
-  font-family: "Zilla Slab Highlight", cursive;
+.font-family-raleway {
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  @apply bg-nord-1 text-nord-4 font-family-raleway;
 }
 
 .row-start-8 {
