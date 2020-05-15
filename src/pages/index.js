@@ -2,5 +2,14 @@ import React from "react"
 import "../global.css"
 
 import StackedBarsIcon from "../components/StackedBarsIcon"
+import DefaultLayout from "../layouts"
 
-export default () => <StackedBarsIcon />
+const IndexPage = () => {
+  return (
+    <DefaultLayout>
+      <StackedBarsIcon />
+    </DefaultLayout>
+  )
+}
+
+export default IndexPage

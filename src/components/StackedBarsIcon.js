@@ -8,7 +8,7 @@ export default class StackeddivarsIcon extends Component {
         style={{
           gridTemplateRows: "repeat(8, 1fr)",
           gridTemplateColumns: "4fr repeat(25, 1fr)",
-          marginTop: "20vh",
+          marginTop: "10vh",
         }}
       >
         <div
