@@ -1,13 +1,13 @@
 import React from "react"
 import { Link } from "gatsby"
 import "../global.css"
-import logo from "../static/logos/logo-alvaro-duran-dark.png"
+import logo from "../static/logos/logo-alvaro-duran-light.png"
 
 const NavBar = () => {
   return (
     <>
       <header
-        className="p-2 bg-nord-4 shadow-lg grid z-10"
+        className="p-2 bg-gray-900 shadow-lg grid z-10"
         style={{
           gridTemplateColumns: "max-content 1fr",
         }}
