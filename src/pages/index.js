@@ -28,15 +28,6 @@ const IndexPage = () => {
           subtitle="Use of Context, Hooks and LocalStorage"
         />
       </ListSection>
-
-      <ListSection title="AbEx" className="" titleClassName="text-nord-13">
-        <ListItem
-          to="/onementI"
-          src={thumbNailOnementI}
-          title="Onement I"
-          subtitle="Barnett Newman"
-        />
-      </ListSection>
     </DefaultLayout>
   )
 }
