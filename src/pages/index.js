@@ -24,8 +24,14 @@ const IndexPage = () => {
         <ListItem
           to="/booklist"
           src={thumbNailBookList}
-          title="Book List Demo"
+          title="Book List"
           subtitle="Use of Context, Hooks and LocalStorage"
+        />
+        <ListItem
+          to="/watch"
+          src={thumbNailBookList}
+          title="AppleWatch Layout"
+          subtitle="Why do all the catalogs have to be the same?"
         />
       </ListSection>
     </DefaultLayout>
