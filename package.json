@@ -19,8 +19,8 @@
     "gatsby-plugin-postcss": "2.3.4",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "react-id-swiper": "^3.0.0",
-    "swiper": "^5.4.3"
+    "react-id-swiper": "3.0.0",
+    "swiper": "5.4.3"
   },
   "devDependencies": {
     "prettier": "2.0.5",
