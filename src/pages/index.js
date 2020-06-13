@@ -25,7 +25,13 @@ const IndexPage = () => {
           to="/booklist"
           src={thumbNailBookList}
           title="Book List Demo"
-          subtitle="Use of Context, Hooks and LocalStorage"
+          subtitle="Use of Context, Hooks and Cookies"
+        />
+        <ListItem
+          to="/social-shopping"
+          src={thumbNailBookList}
+          title="Social Shopping Demo"
+          subtitle="How would a Store would look like if it got merged with Instagram"
         />
       </ListSection>
     </DefaultLayout>

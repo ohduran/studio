@@ -22,6 +22,10 @@ module.exports = {
           "15": "#b48ead",
         },
       },
+      height: {
+        "72": "18rem",
+        "80": "20rem",
+      },
     },
   },
   variants: {},
