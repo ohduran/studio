@@ -4,7 +4,7 @@ import StackedBarsIcon from "../components/StackedBarsIcon"
 import DefaultLayout from "../layouts"
 
 import thumbNailBookList from "../static/thumbnails/demos/BookList.png"
-import thumbNailOnementI from "../static/thumbnails/abex/OnementI.png"
+import thumbNailSocialShopping from "../static/thumbnails/demos/SocialShopping.png"
 import ListItem from "../components/ListItem"
 import ListSection from "../components/ListSection"
 
@@ -29,7 +29,7 @@ const IndexPage = () => {
         />
         <ListItem
           to="/social-shopping"
-          src={thumbNailBookList}
+          src={thumbNailSocialShopping}
           title="Social Shopping Demo"
           subtitle="How would a Store would look like if it got merged with Instagram"
         />
