@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 
 import Swiper from "react-id-swiper"
 import "swiper/css/swiper.css"
@@ -124,9 +125,9 @@ const BellIcon = ({ className }) => {
 const Menu = () => {
   return (
     <nav className="fixed left-0 bottom-0 w-full py-2 bg-gray-100 flex justify-around">
-      <a className="py-1 px-3 bg-white rounded-full shadow-lg">
+      <Link to="/" className="py-1 px-3 bg-white rounded-full shadow-lg">
         <HomeIcon className="h-8 my-2 text-gray-500" />
-      </a>
+      </Link>
       <a className="py-1 px-2 bg-white rounded-full shadow-lg">
         <AddToListIcon className="h-8 my-2 text-gray-500" />
       </a>
