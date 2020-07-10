@@ -14,9 +14,9 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
-    "gatsby": "2.23.22",
+    "gatsby": "2.24.2",
     "gatsby-plugin-favicon": "3.1.6",
-    "gatsby-plugin-postcss": "2.3.9",
+    "gatsby-plugin-postcss": "2.3.11",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-id-swiper": "4.0.0",
